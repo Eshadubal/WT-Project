@@ -1,0 +1,7 @@
+.fixed-image {
+    width: 100%; /* Ensures image fits within the card width */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Scale the image to cover the entire area without distortion */
+    border-top-left-radius: 8px; /* Optional: If you want rounded corners like the card */
+    border-top-right-radius: 8px; /* Optional: If you want rounded corners like the card */
+}

@@ -1,0 +1,45 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .recipe-form {
+    margin-bottom: 20px;
+  }
+  
+  .recipe-form input, .recipe-form textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 80%;
+  }
+  
+  .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .recipe-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .recipe-card h2 {
+    font-size: 1.5rem;
+  }
+  
+  .recipe-card a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
+  

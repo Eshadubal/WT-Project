@@ -1,0 +1,60 @@
+/* Container for the image, text, and button */
+.home-container {
+    position: relative;
+    width: 100vw;
+    height: 92vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Full-screen background image */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0; /* Behind the text and button */
+}
+
+/* Welcome text styling */
+/* Welcome text styling */
+.welcome-text {
+    position: absolute;
+    color: rgb(215, 100, 152); /* Text color */
+    font-size: 48px; /* Font size */
+    font-family:'Cursive'; /* Using a stylish font like Roboto */
+    font-weight: bold; /* Bold text */
+    text-shadow: 2px 2px 8px rgb(255, 255, 255); /* Shadow for better readability */
+    letter-spacing: 1px; /* Adds space between letters */
+    z-index: 1; /* Above the image, below the button */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Transform to uppercase for emphasis */
+    padding: 20px; /* Adds padding around the text */
+}
+
+
+/* Start Now button - positioned in the bottom-right corner */
+.start-now-btn {
+    position: absolute;
+    bottom: 20px;  /* 20px from the bottom */
+    right: 20px;   /* 20px from the right */
+    padding: 10px 20px;
+    background-color:rgb(215, 100, 152);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 2; /* Ensure button appears above everything */
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.start-now-btn:hover {
+    background-color: rgb(187, 72, 124);
+}
